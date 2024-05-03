@@ -1,12 +1,12 @@
 # 4.2 Working With Arrays
 
-* [Arrays as Reference Data Types](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#arrays-as-reference-data-types)
-* [Processing Arrays with Loops](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#processing-arrays-with-loops)
-  * [Reading Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#reading-in-values)
-  * [The length field](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#the-length-field)
-  * [Outputting Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#outputting-an-array-with-a-loop)
-  * [Modifying Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#modifying-values)
-  * [Summing an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/edit/main/README.md#summing-an-array)
+* [Arrays as Reference Data Types](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#arrays-as-reference-data-types)
+* [Processing Arrays with Loops](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#processing-arrays-with-loops)
+  * [Reading Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#reading-in-values)
+  * [The length field](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#the-length-field)
+  * [Outputting Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#outputting-an-array-with-a-loop)
+  * [Modifying Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#modifying-values)
+  * [Summing an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/main/README.md#summing-an-array)
 
 
 
