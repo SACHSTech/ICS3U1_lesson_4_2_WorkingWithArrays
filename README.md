@@ -130,20 +130,20 @@ System.out.println("There " + marks.length + " elements in the array.");
 ### Outputting an Array with a Loop
 Using the length field we can use a loop to iterate through the array and print each element:
 ```
-// output the marks
-for(int index = 0; index < marks.length; index++){
-  System.out.println("mark " + (index+1) + ": " + marks[index]);
-}
+    // output the marks
+    for(int index = 0; index < marks.length; index++){
+      System.out.println("mark " + (index+1) + ": " + marks[index]);
+    }
 ```
 
 ### Modifying Values
 We can use a loop to iterate an array and modify each element.  For example, we want to give each mark a 2 mark boost.
 ```
-// apply a 2 mark boost
-        for (int index = 0; index < marks.length; index++){
-            marks[index] = marks[index] + 2;
-            //marks[index] += 2;
-        }
+    // apply a 2 mark boost
+    for (int index = 0; index < marks.length; index++){
+        marks[index] = marks[index] + 2;
+        //marks[index] += 2;
+    }
 ```
 
 ### Summing an Array
