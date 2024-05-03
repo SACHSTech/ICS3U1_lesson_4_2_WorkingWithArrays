@@ -11,8 +11,7 @@ Arrays in Java are reference data types.  This means that, like objects, the arr
 Consider an array temperatures.  The variable temperatures is a reference to the data.
 
 ```
-public class Temperatures extends ConsoleProgram {
-
+public class Example1 extends ConsoleProgram {
 
     public void run() {
       
@@ -42,19 +41,110 @@ The effect of this is temperature1 & 2 now refer to the same array.  The result 
 
 ## Processing Arrays with Loops
 
+### Example1.java
+```
+public class Example2 extends ConsoleProgram {
+
+  public void run() {
+    
+    int[] marks = new int[5];
+    int total;
+    double average;
+    
+    // read in the values
+    for (int index = 0; index < 5; index++){
+      marks[index] = readInt("Enter a mark: ");
+     }
+
+    System.out.println("\nThere " + marks.length + " elements in the array.\n");
+
+    // output the marks
+    for(int index = 0; index < marks.length; index++){
+      System.out.println("mark " + (index+1) + ": " + marks[index]);
+    }
+
+    // apply a 2 mark boost
+    for (int index = 0; index < marks.length; index++){
+      marks[index] = marks[index] + 2;
+    }
+
+    System.out.println("");
+    System.out.println("*** Marks with 2+ boost ***");
+
+    // output the marks with the boost
+    for(int index = 0; index < marks.length; index++){
+      System.out.println("mark " + (index+1) + ": " + marks[index]);
+    }
+
+    // compute the average using the total marks
+    total= 0;
+    for(int index = 0; index < marks.length; index++){
+        total = total + marks[index];
+    }
+    
+    average = (double)total/marks.length;
+    System.out.println("\nThe average of the class is " + average);    
+
+  }
+}
+```
+
+
 ### Reading in Values
 We've seen that we can initialize array elements with an initializer.  We can also use user input to set element values:
 
 ```
-int[] marks = new int[5];
-
-       for (int index = 0; index < 5; index++){
-            
-           System.out.print("Enter a mark: ");
-           marks[index] = scanner.nextInt();
-       }
-
+    int[] marks = new int[5];
+    
+    for (int index = 0; index < 5; index++){
+      marks[index] = readInt("Enter a mark: ");
+     }
 ```
+
+### The `length` field
+The `length` field is a special property of an array that we call when we want to know the size (how many elements) of the array.
+```
+System.out.println("There " + marks.length + " elements in the array.");
+```
+
+### Outputting an Array with a Loop
+Using the length field we can use a loop to iterate through the array and print each element:
+```
+// output the marks
+for(int index = 0; index < marks.length; index++){
+  System.out.println("mark " + (index+1) + ": " + marks[index]);
+}
+```
+
+### Modifying Values
+We can use a loop to iterate an array and modify each element.  For example, we want to give each mark a 2 mark boost.
+```
+// apply a 2 mark boost
+        for (int index = 0; index < marks.length; index++){
+            marks[index] = marks[index] + 2;
+            //marks[index] += 2;
+        }
+```
+
+### Summing an Array
+We can compute a total of an array in order to compute the average.
+```
+    // compute the average using the total marks
+    total= 0;
+    for(int index = 0; index < marks.length; index++){
+        total = total + marks[index];
+    }
+    
+    average = (double)total/marks.length;
+    System.out.println("\nThe average of the class is " + average);    
+```
+
+ 	
+
+
+
+
+
 
 
 
