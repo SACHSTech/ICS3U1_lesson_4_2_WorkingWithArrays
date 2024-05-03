@@ -7,6 +7,7 @@
   * [Outputting Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/blob/main/README.md#outputting-an-array-with-a-loop)
   * [Modifying Values](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/blob/main/README.md#modifying-values)
   * [Summing an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/blob/main/README.md#summing-an-array)
+  * [Searching an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_2_WorkingWithArrays/blob/main/README.md#searching-an-array)
 
 
 
