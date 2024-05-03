@@ -46,7 +46,7 @@ The effect of this is temperature1 & 2 now refer to the same array.  The result 
 
 ## Processing Arrays with Loops
 
-### Example1.java
+### Example2.java
 ```
 public class Example2 extends ConsoleProgram {
 
@@ -88,7 +88,22 @@ public class Example2 extends ConsoleProgram {
     }
     
     average = (double)total/marks.length;
-    System.out.println("\nThe average of the class is " + average);    
+    System.out.println("\nThe average of the class is " + average);  
+
+    // search the array for mark
+    searchMark = readInt("Enter the mark to search: ");
+
+    for (int i = 0; i < marks.length; i++){
+      if(marks[i] == searchMark){  //check the mark in the current position
+        System.out.println(searchMark + " found in position " + i);
+        markfound = true;
+        break;
+      }
+    }
+
+    if (!markfound){
+      System.out.println("Mark not found");
+    } 
 
   }
 }
@@ -143,6 +158,27 @@ We can compute a total of an array in order to compute the average.
     average = (double)total/marks.length;
     System.out.println("\nThe average of the class is " + average);    
 ```
+
+### Searching an Array
+We can apply basic conditions in a our loop to search the array.  By using a loop to iterate through the array, we can check each element until we find it.  This type of search is called a **linear search**
+
+```
+    // search the array for mark
+    searchMark = readInt("Enter the mark to search: ");
+
+    for (int i = 0; i < marks.length; i++){
+      if(marks[i] == searchMark){  //check the mark in the current position
+        System.out.println(searchMark + " found in position " + i);
+        markfound = true;
+        break;
+      }
+    }
+
+    if (!markfound){
+      System.out.println("Mark not found");
+    }
+```
+
 
  	
 
